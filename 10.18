@@ -1,0 +1,4 @@
+今日汇报:论文方面了解了关于作用在不同网络层中的DDOS流攻击各自具备的特征。如作用在网络传输层上的DDOS攻击就可分为4类，它们拥有不同的特征。如flooding attack
+目的就是耗尽受害者网络的带宽，以阻碍合法服务的工作。protocol exploitation则利用受害者的协议特性来超量消耗受害者的资源。reflection-based flooding attack
+给反射器发送虚假的请求信息，进而让反射器给受害者返回回应信息以此来消耗受害者资源。amplification-based flooding attack则是同时利用放大功能和反射器的返回信息
+功能来对受害者进行资源消耗威胁。对于工作在应用层的DDOS攻击，也可分为四类，正在学习中
