@@ -1,0 +1,14 @@
+今天将DDoS attack detection method using cluster analysis 这篇论文中使用的ward’s方法看明白了。接下来需要再将论文里的Cubic Clustering Criterion(用来计算最终簇数量的算法)算法了解明白。
+在这里大致概括一下ward’s算法:
+该算法的大致内容是首先确定最终将簇合并的数量n，将M个簇类逐个合并，以最终合并成n个簇。
+假设有z个簇，每个簇都可以用n维数量表示如:
+A(a1,b1,c1,...,n1)简便表示为:A(A1,A2,A3,...,An)
+B(a2,b2,c2,...,n2):B(B1,B2,B3,...,Bn)
+..
+Z(az,bz,cz,....,nz):Z(Z1,Z2,Z3,...,Zn)
+目标是将这z个簇最终合并成m个簇
+假设要合并A,B两类簇,首先计算A,B两类的
+中点M((a1+a2)/2,(b1+b2)/2,(c1+c2)/2,...,(n1+n2)/2)
+方便起见将M表示为M(M1,M2,M3,...,Mn)
+ESS(A,B)=(∑ni=1(Ai-Mi)2)2+(∑ni=1(Bi-Mi)2)2
+分别计算z(z-1)/2次之后，选择ESS最小的那组合并，循环若干次之后，达到n个簇
