@@ -1,0 +1,6 @@
+今日学习:
+今天将昨天剩掉的DDoS attack detection method using cluster analysis论文里的内容了解完毕，论文的创新点在于首先用Cubic CLustering Criterion标准
+决定流量合并之后的簇类数量，再使用Ward's方法将不同的数据流量进行合并分类最终使分类后的流量达到指定簇的数量，以实现流量的分类。流量的分类用在DDOS方向上
+就能将正常流量和攻击流量区分出来以实现DDOS攻击的检测。
+此外，今天开始阅读一篇INFOCOM上的论文:Packetscore: Statistics-based Overload Control against Distributed Denial-of-Service Attacks
+大致的内容应该是将每一个数据包进行评分，超过一定阈值的数据包判定为疑似攻击包，降低其在网络传输中的优先级以实现对DDOS攻击的防护
