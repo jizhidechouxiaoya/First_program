@@ -1,0 +1,4 @@
+今日学习:
+今天将昨天开始看的这篇Packetscore: Statistics-based Overload Control against Distributed Denial-of-Service Attacks论文又向后面看了一些，
+对于里面提到的一些名词有些陌生，提到的概念也有些难以理解。总的来说本文是建立了一个评分系统来对读入的每一个数据包进行评分，当分数低于一个阈值时就将其丢弃掉
+以此实现计算机资源的缓解。这个阈值是根据一段时间内读入的数据包进行动态调整的，关于判定数据包好坏的这个算法还在继续进行理解
