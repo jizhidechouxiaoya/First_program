@@ -1,0 +1,8 @@
+今日学习:
+今天一天将您之前发的截图里ICCCS会议里的论文
+An Abnormal Network Flow Feature Sequence Prediction Approach for DDoS Attacks Detection in Big Data Environment基本看完
+该论文是将传统网络里解决DDOS攻击的方法背景带到大数据里，在大数据的环境里体现出该方法节省检测资源的特点。总的来说，该论文的思路为:
+指定一定时间段T，假设现在是第k个T时间段，通过列出该时间段里的一些参数，计算其对应的数值PDRA，如果该时间段的PDRA数值高于之前设定的阈值α，则认为该时间段
+为可疑时间段。当可疑时间段的数量超出β个后，选择其后w个时间段，组成一个集合，计算该集合中PDRA数超出阈值的时间段数量，记为γ，如果γ等于w，判定此时就发生了
+DDOS攻击。
+该方案我还有一些不明白的地方，打算明天在课后再仔细看看。
