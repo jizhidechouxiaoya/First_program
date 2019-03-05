@@ -1,0 +1,7 @@
+今日学习:
+今天上午和晚上在上机器学习课程和算法设计与分析，下午将昨天汇报的论文:
+An Abnormal Network Flow Feature Sequence Prediction Approach for DDoS Attacks Detection in Big Data Environment
+初步过了一遍，大致的思路整理了一下。
+论文从ip地址着手，将每一个ip地址对应一个用户，围绕着新(待测流量阶段新出现的ip地址)老(正常流量阶段出现的ip地址)用户和待测流量阶段各用户发送的数据包数量
+选择了四种特征，以它们的乘积作为一个指标，与设定的阈值进行比较以推测是否发生了DDOS攻击。
+只是在处理判断DDOS攻击的阶段还存在着一些细节之处需要再琢磨琢磨。此外，从网上找到了SDN中与DDOS防御相关的实验，打算尝试着做一下
