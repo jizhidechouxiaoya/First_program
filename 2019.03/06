@@ -1,0 +1,6 @@
+今日学习:
+今天上午在装载openvSwitch软件，它是一款虚拟交换机软件，不同于mininet创建的仿真交换机，openvSwitch就是一款真实的交换机，只不过由物理机变为了虚拟机。
+安装过程遇见了各种麻烦，而且最终由于一些插件的冲突没有安装完成，打算在创建一台虚拟机在那里面进行安装。
+下午和晚上分别对An Abnormal Network Flow Feature Sequence Prediction Approach for DDoS Attacks Detection in Big Data Environment
+这篇论文进行了第二次细看以及查找其引用的可以供我使用的论文参考。第二遍的查看，发现论文里的一些关键点自己没有正确的理解清楚，打算明天将这篇论文过完。
+后天需要对查找到的一篇一区论文进行学习。论文名称为:Defense Mechanisms Against DDoS Attacks in SDN Environment
