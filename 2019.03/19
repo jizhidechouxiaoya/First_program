@@ -1,0 +1,4 @@
+今日学习:
+今天上午学习了机器学习中的支持向量机，晚上又学习了一种求算法时间复杂度的方法
+论文方面，今天学习了一篇A distributed filtering mechanism against DDoS attacks: ScoreForCore二区论文。感觉论文里面提到的动态调整监测特征可以
+考虑考虑使用，之前自己查找的特征我认为还是选择的不太合适，应该再从其他方面入手查找
