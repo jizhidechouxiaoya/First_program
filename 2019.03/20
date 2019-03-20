@@ -1,0 +1,5 @@
+今日学习:
+今天将昨天看的一篇论文A distributed filtering mechanism against DDoS attacks: ScoreForCore看完了，主要思路是将传统环境下的不同路由器配置不同
+属性，将正常拥塞时差异最大的属性对作为可疑对，实现了检测DDOS攻击时特征的动态选取，根据不同属性得分和阈值进行比较判断，来进行转发和丢弃。
+今天又找了一篇一区论文综述:A Survey of Machine Learning Techniques Applied to Software Defined Networking (SDN)：Research Issues and Challenges
+想通过这篇论文进行思路上的查找。
