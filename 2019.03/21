@@ -1,0 +1,4 @@
+今日学习:
+今天将A Survey of Machine Learning Techniques Applied to Software Defined Networking (SDN): Research Issues and Challenges这篇一区
+综述看了一部分，对于SDN中的一些相关细节又有了些理解，下午和师兄交流，发现自己找到的特征值使用起来还是比较困难的，现在在查找新的特征，应该会搭配熵值，
+对之前看的一篇利用联合熵做DDOS检测的论文之上进行时间复杂度上的改善，以证明新的方法在运行时间上比这篇联合熵论文更加优秀。
