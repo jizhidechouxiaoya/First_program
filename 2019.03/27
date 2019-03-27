@@ -1,0 +1,3 @@
+今日学习:
+今天看了一篇A Deep Learning Based DDoS Detection System in Software-Defined Networking (SDN)论文，该论文使用一种称为稀疏自编码器的神经网络进行
+流量的分类，关于这个神经网络的相关细节还在查看中。还是准备这两天抽时间看看原来的那篇联合熵论文。明天会去参加高性能计算平台讲座，学习一下相关知识
