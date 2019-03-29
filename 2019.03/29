@@ -1,0 +1,5 @@
+今日学习：
+今天回顾了那个使用联合熵检测DDOS攻击的论文，感觉现在检测DDOS攻击的特征最好采用动态最佳调整方案去进行特征的选取，一味的选取一个固定特征只能检测已知的某一种类
+DDOS攻击。同时又看了一篇SDNScore: A Statistical Defense Mechanism Against DDoS Attacks in SDN Environment论文，尝试从该论文中学习一些选择特征
+的方法。还额外查找了一篇FlowStat: Adaptive Flow-Rule Placement for Per-Flow Statistics in SDN一区论文，尝试通过合并流规则来对DDOS攻击进行一定
+程度的缓解。
