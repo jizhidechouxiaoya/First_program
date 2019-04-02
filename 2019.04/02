@@ -1,0 +1,3 @@
+今日学习:
+今天上午和晚上上课，下午的时候阅读了一部分Efficient DDoS ﬂood attack detection using dynamic thresholding on ﬂow-based network traffic这篇
+二区论文。不同于其他论文，该论文提出了诸如各协议平均发送包数量，每一IP地址发送包数量等特征来检测DDOS攻击。至于论文的进一步分析打算等明天再看
