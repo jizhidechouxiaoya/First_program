@@ -1,0 +1,6 @@
+今日学习:
+今天将昨天的那篇论文:Efficient DDoS flood attack detection using dynamic thresholdingonflow-based network traffic后续部分看完了，该论文通过
+选用单位周期内接收到的数据包数量，源IP地址数量，源地址IP地址数量和目的地址IP数量的比值以及源IP地址数量和协议数量的比值四个特征，分别为每一个特征设定一定
+动态阈值，计算每一个特征具有的分数，与动态阈值相比较，当四个特征分数都超出本身的阈值时就判定为发生了DDOS攻击。该论文设定的阈值会随着接收到的数据包行为特征
+而不断变化，可以检测已知和未知的DDOS攻击。明天准备看A DDoS Attack Detection and Mitigation With Software-Defined Internet of Things Framework
+这篇论文。
