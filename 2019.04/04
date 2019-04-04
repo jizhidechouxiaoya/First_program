@@ -1,0 +1,3 @@
+今日学习:
+今天看了一篇ACCESS上的论文A DDoS Attack Detection and Mitigation With Software-Defined Internet of Things Framework。该论文使用余弦相似性来
+推断数据流量向量之间的相似性以此来实现对DDOS攻击的检测。检测方案的具体实现细节还在阅读
