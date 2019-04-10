@@ -1,0 +1,4 @@
+今日学习:
+今天在看SGS: Safe-Guard Scheme for Protecting Control Plane Against DDoS Attacks in Software-Defined Networking这篇ACCESS论文，该论文
+将DDOS防御的任务分发到控制器和交换机上。首先将与接收到异常流量的交换机相连的控制器更改到相邻的控制器，减缓了接收异常流量控制器的处理负担。同时，原接收
+异常流量的交换机将对异常流量进行处理之后，将对该流量的处理策略发送到相应的交换机上以应对DDOS攻击。对该论文的一些细节部分还在阅读中。
