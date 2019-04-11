@@ -1,0 +1,5 @@
+今日学习：
+今天将昨天看的那篇论文SGS: Safe-Guard Scheme for Protecting Control Plane Against DDoS Attacks in Software-Defined Networking阅读完毕，
+该论文的思路是当异常流量出现时，如果连接该异常交换机的控制器利用率超出一定阈值，防御系统会自动寻找一定位置以内的目的控制器，并将该交换机连接到目的控制器
+下，以缓解源控制器的处理压力。同时，检测系统会检测交换机传输的异常流量，如果发现是真正的DDOS攻击，检测系统会通过源控制器发送一些处理信息给异常交换机，丢
+弃异常的流表项，节省流表空间，达到缓解检测并处理DDOS攻击的目的。
