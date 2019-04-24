@@ -1,0 +1,5 @@
+今日学习：
+今天在回顾之前看过的一篇SGS Safe-Guard Scheme for ProtectingControl Plane Against DDoS Attacksin Software-Defined Networking
+Access论文，写了一些代码来通过统计流表匹配过程中未命中数据包占一定时间内总数据包的比例这一特征，在之前收集的实验集中看是否能检测出DDOS攻击，不知道是由于
+什么原因，感觉使用这种特征，好像没有什么很明显的优势。我也一直认为这种特征应该作为判断DDOS攻击发生的触发器，但不适合检验DDOS攻击。论文方面，感觉在这篇论文
+里使用的一个特征比较适合拿来做检测特征，打算考虑一下，带入拥有的数据集中看看检测的效果如何。
