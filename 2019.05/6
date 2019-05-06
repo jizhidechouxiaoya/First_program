@@ -1,0 +1,4 @@
+今日学习：
+今天将SD-Anti-DDoS Fast and efficient DDoS defense in software-definednetworks这篇论文看了大半，该论文的主要创新点在于异常流量触发器的使用，
+它通过将packet_in消息数量进行除余操作，记录每一次除余结果为零的时间，计算packet_in消息的产生速率，判断是否发生了异常流量。之后通过DDOS攻击检测，攻击
+溯源，攻击缓解等模组来进行整个的防御。
