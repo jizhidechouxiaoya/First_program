@@ -1,0 +1,4 @@
+今日学习：
+今天在看Stream-based Machine Learning for Network Security and Anomaly Detection这篇一区论文，文中提到使用自适应随机森林算法对处理连续数据流
+这种情况拥有很高的精度，对DDOS的检测恰好也就是这用连续处理数据流的过程。因此，从网上下载了决策树算法的python实现代码，理解后将数据集带入看看判断的情况
+是否准确能否使用。
