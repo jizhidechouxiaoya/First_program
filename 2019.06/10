@@ -1,0 +1,4 @@
+今日学习：
+今天把之前在看的论文主体部分看了大概，Semi-Supervised K-Means DDoS Detection Method Using Hybrid Feature Selection Algorithm这篇论文的主要
+思想是将检测DDOS攻击常用的特征，通过以不同的特征对数据集进行簇类分类，以每个特征的簇类内距离平方和以及簇间距离平方和的比值作为标准，按照比值大小递增
+的顺序，选择检测攻击效果最好的特征，组成特征对来进行DDOS检测。这样会使检测效果最好。晚上则在复习组合数学的内容以应对考试
