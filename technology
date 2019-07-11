@@ -1,0 +1,23 @@
+python由于没有将每个变量的类型具体化，所以在传递过程中，很可能会出现变量的形式发生改变的情况
+print('%2d'%table[i][j],end=' ')将个位数和十位数对齐
+python里的lambda和map用法:
+2019.07.11
+lambda是一种可以不进行定义，直接使用的方法：
+如:
+def count(A,B):
+print(A*B)
+count(19,3)
+A = lambda a,b:a*b
+print(A(19,3))
+两种表达具有相同的结果
+map则是用来实现映射功能,lambda的使用一般只包括简单的运算，而且对象一般只是单个数字，这时就需要使用map来对其进行映射
+如:
+A = map(lambda x:x*x,[1,2,3,4,5])
+print(A)#python2环境下
+print(list(A))#python3环境下
+即可输出数组里每个数的平方列表
+zip函数:
+a = zip([1,2,3,4],[3,4,5,6])
+print(list(a))
+zip会将两个对象的每一个组成部分两两组合。
+会输出(1,3),(2,4）,(3,5),(4,6)
