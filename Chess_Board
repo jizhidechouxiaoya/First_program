@@ -1,24 +1,18 @@
+ #-*-coding:GBK -*-
+#coding=utf-8
 Size = 8
 Mark = 0
-Board = [[-1 for x in range(Size)] for y in range(Size)]
-"""
-设定棋盘的规模，定义一个数组来模拟棋盘
-"""
-def Chess_Board(x,y,b_x,b_y,Size):
-"""
-x,y代表棋盘的最左上角的位置
-b_x,b_y代表的是特殊方格的位置
-Size是棋盘的规模
-"""
-  global Board#全局数组变量
+Board = [[-1 for x in range(Size)] for y in range(Size)]#设定棋盘的规模，定义一个数组来模拟棋盘
+def Chess_Board(x,y,b_x,b_y,Size):#x,y代表棋盘的最左上角的位置 b_x,b_y代表的是特殊方格的位置 Size是棋盘的规模
+	global Board#全局数组变量
 	global Mark#全局标记，用来在数组各个位置赋值，三个相同的标记就是对L型方块的模拟
 	Mark += 1
 	count = Mark
-""" 
-这里之所以把Mark赋值给count，是因为Mark在每次进入Chess_Board函数时的数值都会改变，而如果赋给一个变量count，无论一个Chess_Board函数里面
-多少层Chess_Board函数，count的值是始终都不会改变的
-"""
-  if Size == 1:
+	"""
+	这里之所以把Mark赋值给count，是因为Mark在每次进入Chess_Board函数时的数值都会改变，而如果赋给一个变量count，无论一个Chess_Board函数里面
+	多少层Chess_Board函数，count的值是始终都不会改变的
+	"""
+	if Size == 1:
 		return#返回上一层的Chess_Board函数
 	half = Size//2
 	if x+half > b_x and y+half > b_y :#比较特殊方块是否在数组的左上部分。因为本问题的任意数组都可以划分成规模相同的四个子数组，
@@ -26,11 +20,11 @@ Size是棋盘的规模
 	else:
 		Board[x+half-1][y+half-1] = count
 		Chess_Board(x,y,x+half-1,y+half-1,half)
-"""
-如果特殊方格不在数组的左上角部分，则将数组左上部分的最右下角位置设定为特殊方格，这样就形成了规模为原数组一半的棋盘覆盖问题。
-数组另外三部分的处理情况全部相同，只不过特殊方格的位置要随着数组的不同位置发生改变，同时数组的起始位置也需要发生改变。
-比如如果数组的左下角部分不存在特殊方格，那就需要将左下角部分的最右上角位置设定为特殊方格。
-"""
+	"""
+	如果特殊方格不在数组的左上角部分，则将数组左上部分的最右下角位置设定为特殊方格，这样就形成了规模为原数组一半的棋盘覆盖问题。
+	数组另外三部分的处理情况全部相同，只不过特殊方格的位置要随着数组的不同位置发生改变，同时数组的起始位置也需要发生改变。
+	比如如果数组的左下角部分不存在特殊方格，那就需要将左下角部分的最右上角位置设定为特殊方格。
+	"""
 	if x+half > b_x and y+half <= b_y:
 		Chess_Board(x,y+half,b_x,b_y,half)
 	else:
@@ -57,3 +51,4 @@ show_Board()
 设定数组左上角为初始位置和特殊方格的位置，输入棋盘的规模作为参数
 show_Board()函数是对数组的展示
 """
+input()
