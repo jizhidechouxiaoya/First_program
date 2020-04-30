@@ -1,0 +1,2 @@
+今日学习:
+今天将之前找的综述:Low-Rate DoS Attacks, Detection, Defense,and Challenges: A Survey看了一部分，了解了Low-Rate DoS攻击的原理及其造成的影响。文章中有一些防御部分需要对TCP/IP等通信协议的各种机制有比较详尽的了解。所以也在重温这些相关知识。
