@@ -1,0 +1,4 @@
+今日学习:
+今天仍在继续看A Learning Automata-based DDoS Atack Defense Mechanism in Sofware Defined Networks这篇文章，主要的问题还是对里面的一些参数不大
+了解所表示的意义。该文章是利用了强化学习的概念，通过赏罚机制来不断优化整个系统，以应对不同情况。但是该文章对所提出的方案没有细节上的描述，所以对该方案的
+实现有些疑惑。
