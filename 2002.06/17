@@ -1,0 +1,3 @@
+今日学习:
+今天仍然在看论文:PivotWall: SDN-Based Information Flow Control，重点在看它里面图的构建。通过构建graph，所提方案能够根据graph的信息来对网络里传输的流量
+采取各种措施来进行处理。
