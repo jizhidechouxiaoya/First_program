@@ -1,0 +1,4 @@
+今日学习:
+今天找到一篇顶会论文:A Distributed Deep Learning System for Web Attack Detection on Edge Devices。准备看其分布式深度学习系统的创新点如何，此外，将在
+看的那篇进行流量控制的论文看完了，它最主要的创新点还是通过建立有向图以及流量的传输模型，对整个模型判定为不同模式的流量采取不同的行为，以起到流量的精准控制
+功能。
