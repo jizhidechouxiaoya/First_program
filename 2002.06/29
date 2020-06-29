@@ -1,0 +1,4 @@
+今日学习:
+今天找了几篇顶会论文，将那篇对抗性攻击的论文:MTDeep: Boosting the Security of Deep Neural Nets Against Adversarial Attacks with Moving Target Defense看了个大概，它的创新点
+在于利用移动目标防御这一在多个软件系统间进行切换进而降低攻击成功率的防御框架上，通过在该框架与用户间的交互上建立贝叶斯博弈，寻找最优的切换策略进而增强对对抗性攻击的防御。对该文章
+还有一些疑问之处还在继续看。
